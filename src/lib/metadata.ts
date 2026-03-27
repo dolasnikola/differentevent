@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/data/siteConfig";
+import { basePath } from "@/lib/images";
 
 interface GenerateMetadataOptions {
   title: string;
@@ -15,7 +16,7 @@ export function generatePageMetadata({
   image,
 }: GenerateMetadataOptions): Metadata {
   const url = `${siteConfig.url}${path}`;
-  const ogImage = image || "/images/logo/logo.png";
+  const ogImage = image || `${basePath}/images/logo/logo.png`;
 
   return {
     title: `${title} | ${siteConfig.name} Beograd`,

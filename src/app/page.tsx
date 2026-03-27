@@ -4,6 +4,7 @@ import { FeatureStrip } from "@/components/sections/FeatureStrip";
 import { ParallaxSection } from "@/components/sections/ParallaxSection";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { CTABanner } from "@/components/sections/CTABanner";
+import { basePath } from "@/lib/images";
 
 export default function HomePage() {
   return (
@@ -12,7 +13,7 @@ export default function HomePage() {
       <ProductGrid />
       <FeatureStrip />
       <ParallaxSection
-        image="/images/pagode/pagode-10.jpg"
+        image={`${basePath}/images/pagode/pagode-10.jpg`}
         title="Svaki događaj zaslužuje savršen prostor"
         subtitle="Od intimnih proslava do velikih korporativnih događaja — mi obezbeđujemo kompletnu opremu i profesionalnu montažu."
       />
