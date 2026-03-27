@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { siteConfig } from "@/data/siteConfig";
 import { Container } from "@/components/ui/Container";
+import { basePath } from "@/lib/images";
 
 export function Footer() {
   return (
@@ -12,7 +13,7 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-3 mb-4">
               <Image
-                src="/images/logo/logo.png"
+                src={`${basePath}/images/logo/logo.png`}
                 alt="Different Event logo"
                 width={40}
                 height={40}

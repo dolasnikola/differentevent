@@ -6,6 +6,7 @@ import { ParallaxSection } from "@/components/sections/ParallaxSection";
 import { CTABanner } from "@/components/sections/CTABanner";
 import { AnimateOnScroll } from "@/components/ui/AnimateOnScroll";
 import { generatePageMetadata } from "@/lib/metadata";
+import { basePath } from "@/lib/images";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "O nama",
@@ -40,7 +41,7 @@ export default function ONamaPage() {
             <AnimateOnScroll variant="slideLeft">
               <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
                 <Image
-                  src="/images/pagode/pagode-2.jpg"
+                  src={`${basePath}/images/pagode/pagode-2.jpg`}
                   alt="Different Event tim na terenu"
                   fill
                   className="object-cover"
@@ -70,7 +71,7 @@ export default function ONamaPage() {
       </section>
 
       <ParallaxSection
-        image="/images/satori/sator-3.jpg"
+        image={`${basePath}/images/satori/sator-3.jpg`}
         title="Svaki detalj je bitan"
         subtitle="Od malih privatnih proslava do velikih korporativnih događaja — pristupamo svakom projektu sa istom posvećenošću i profesionalizmom."
       />

@@ -4,18 +4,19 @@ import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
+import { basePath } from "@/lib/images";
 
 const slides = [
   {
-    image: "/images/pagode/pagode-1.jpg",
+    image: `${basePath}/images/pagode/pagode-1.jpg`,
     alt: "Pagode za events - Different Event Beograd",
   },
   {
-    image: "/images/satori/sator-1.jpg",
+    image: `${basePath}/images/satori/sator-1.jpg`,
     alt: "Šatori za venčanja - Different Event Beograd",
   },
   {
-    image: "/images/pagode/pagode-5.jpg",
+    image: `${basePath}/images/pagode/pagode-5.jpg`,
     alt: "Oprema za proslave - Different Event Beograd",
   },
 ];

@@ -3,30 +3,31 @@
 import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/ui/Container";
 import { AnimateOnScroll, StaggerContainer, StaggerItem } from "@/components/ui/AnimateOnScroll";
+import { basePath } from "@/lib/images";
 
 const categories = [
   {
     title: "Šatori",
     description: "Šatori za venčanja, proslave, sajmove i industrijske potrebe. Različite veličine i tipovi.",
-    image: "/images/satori/sator-1.jpg",
+    image: `${basePath}/images/satori/sator-1.jpg`,
     href: "/satori",
   },
   {
     title: "Pagode",
     description: "Elegantne pagode za sve vrste događaja. Iznajmljivanje i prodaja.",
-    image: "/images/pagode/pagode-1.jpg",
+    image: `${basePath}/images/pagode/pagode-1.jpg`,
     href: "/pagode",
   },
   {
     title: "Tiffany stolice",
     description: "Luksuzne Tiffany stolice u beloj i zlatnoj boji za elegantne događaje.",
-    image: "/images/pagode/pagode-3.jpg",
+    image: `${basePath}/images/pagode/pagode-3.jpg`,
     href: "/tiffany-stolice",
   },
   {
     title: "Dodatna oprema",
     description: "Stolovi, stolice, rasveta, grejanje, klimatizacija i sve što vam je potrebno.",
-    image: "/images/pagode/pagode-5.jpg",
+    image: `${basePath}/images/pagode/pagode-5.jpg`,
     href: "/dodatna-oprema",
   },
 ];

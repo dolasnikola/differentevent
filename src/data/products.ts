@@ -13,11 +13,13 @@ export interface Product {
   };
 }
 
+import { basePath } from "@/lib/images";
+
 // Helper za generisanje slika
 const pagodeImages = (indices: number[]) =>
-  indices.map((i) => `/images/pagode/pagode-${i}.jpg`);
+  indices.map((i) => `${basePath}/images/pagode/pagode-${i}.jpg`);
 const satoriImages = (indices: number[]) =>
-  indices.map((i) => `/images/satori/sator-${i}.jpg`);
+  indices.map((i) => `${basePath}/images/satori/sator-${i}.jpg`);
 
 export const products: Product[] = [
   // ========== ŠATORI ==========

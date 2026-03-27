@@ -6,6 +6,7 @@ import Image from "next/image";
 import { navigation } from "@/data/navigation";
 import { Container } from "@/components/ui/Container";
 import { MobileNav } from "./MobileNav";
+import { basePath } from "@/lib/images";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -30,7 +31,7 @@ export function Header() {
         <nav className="flex items-center justify-between">
           <Link href="/" className="relative z-10 flex items-center gap-3">
             <Image
-              src="/images/logo/logo.png"
+              src={`${basePath}/images/logo/logo.png`}
               alt="Different Event logo"
               width={48}
               height={48}
