@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-900: #0b1428;
+  --color-navy-800: #111d3d;
+  --color-navy-700: #1a2a52;
+  --color-navy-600: #243a6a;
+  --color-gold-400: #d4a843;
+  --color-gold-300: #e8c96a;
+  --color-gold-200: #f0dca0;
+
+  --font-playfair: "Playfair Display", serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter);
+  color: var(--color-navy-900);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playfair);
+}
+
+/* Parallax fix for mobile */
+@supports (-webkit-touch-callout: none) {
+  .parallax-section {
+    background-attachment: scroll !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .parallax-section {
+    background-attachment: scroll !important;
+  }
+}
