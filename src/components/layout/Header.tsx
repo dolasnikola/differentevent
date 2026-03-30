@@ -94,7 +94,7 @@ export function Header() {
           {/* Mobile Hamburger */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden relative z-10 p-2 text-white"
+            className="lg:hidden relative z-[10000] p-2 text-white"
             aria-label={mobileOpen ? "Zatvorite meni" : "Otvorite meni"}
           >
             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

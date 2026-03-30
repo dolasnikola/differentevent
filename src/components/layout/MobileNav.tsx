@@ -16,7 +16,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
   if (!isOpen) return null;
 
   return (
-    <div className="lg:hidden fixed inset-0 top-0 z-40 bg-navy-900/98 backdrop-blur-md overflow-y-auto pt-20 pb-8 px-6">
+    <div className="lg:hidden fixed inset-0 z-[9999] bg-navy-900 overflow-y-auto pt-20 pb-8 px-6">
       <nav className="flex flex-col gap-1">
         {navigation.map((item) => (
           <div key={item.href}>
