@@ -5,13 +5,16 @@ import Link from "next/link";
 import Image from "next/image";
 import { navigation } from "@/data/navigation";
 import { Container } from "@/components/ui/Container";
-import { MobileNav } from "./MobileNav";
 import { basePath } from "@/lib/images";
 
-export function Header() {
+interface HeaderProps {
+  mobileOpen: boolean;
+  onMobileToggle: () => void;
+}
+
+export function Header({ mobileOpen, onMobileToggle }: HeaderProps) {
   const [scrolled, setScrolled] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
-  const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -21,7 +24,9 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 transition-all duration-300 ${
+        mobileOpen ? "z-[10000]" : "z-50"
+      } ${
         scrolled
           ? "bg-navy-900/95 backdrop-blur-md shadow-lg py-2"
           : "bg-navy-900/80 backdrop-blur-sm py-4"
@@ -93,7 +98,7 @@ export function Header() {
 
           {/* Mobile Hamburger */}
           <button
-            onClick={() => setMobileOpen(!mobileOpen)}
+            onClick={onMobileToggle}
             className="lg:hidden relative z-[10000] p-2 text-white"
             aria-label={mobileOpen ? "Zatvorite meni" : "Otvorite meni"}
           >
@@ -107,8 +112,6 @@ export function Header() {
           </button>
         </nav>
       </Container>
-
-      <MobileNav isOpen={mobileOpen} onClose={() => setMobileOpen(false)} />
     </header>
   );
 }

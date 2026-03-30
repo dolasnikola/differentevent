@@ -3,7 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import "@/styles/globals.css";
 import { siteConfig } from "@/data/siteConfig";
 import { LocalBusinessJsonLd } from "@/components/seo/JsonLd";
-import { Header } from "@/components/layout/Header";
+import { HeaderWrapper } from "@/components/layout/HeaderWrapper";
 import { Footer } from "@/components/layout/Footer";
 import { FloatingCTA } from "@/components/cta/FloatingCTA";
 
@@ -48,7 +48,7 @@ export default function RootLayout({
     <html lang="sr" className={`${inter.variable} ${playfair.variable}`}>
       <body className="min-h-screen bg-white antialiased">
         <LocalBusinessJsonLd />
-        <Header />
+        <HeaderWrapper />
         <main>{children}</main>
         <Footer />
         <FloatingCTA />
