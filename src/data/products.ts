@@ -24,94 +24,47 @@ const satoriImages = (indices: number[]) =>
 export const products: Product[] = [
   // ========== ŠATORI ==========
   {
-    slug: "sator-za-vencanje",
+    slug: "iznajmljivanje-satora",
     category: "Šatori",
     categorySlug: "satori",
-    title: "Šator za venčanje",
-    shortDescription: "Elegantni šatori za venčanja i svečane proslave na otvorenom.",
+    title: "Iznajmljivanje šatora",
+    shortDescription: "Šatori bele boje, modernog dizajna, pogodni za sve vrste događaja.",
     description:
-      "Naši šatori za venčanja pružaju savršen ambijent za vaš najvažniji dan. Dostupni u različitim veličinama, sa mogućnošću potpunog prilagođavanja dekoraciji. Profesionalna montaža i demontaža uključena u cenu.",
+      "Iznajmljujemo šatore bele boje, modernog dizajna, pogodne za sve vrste događaja — od svadbi i venčanja, do korporativnih događaja, sajmova, koncerata i festivala.",
     features: [
-      "Različite veličine (od 50 do 500+ gostiju)",
-      "Bela PVC cerada visoke kvalitete",
+      "Modularni šatori širine 10 m, sa mogućnošću produžavanja u segmentima od 5 m",
+      "Bela PVC cerada visokog kvaliteta",
       "Mogućnost dodavanja podova, rasvete i grejanja",
       "Profesionalna montaža i demontaža",
-      "Otpornost na vremenske uslove",
-      "Elegantne enterijerske opcije",
+      "Otpornost na različite vremenske uslove",
     ],
     images: satoriImages([1, 2, 3, 4, 5]),
     seo: {
-      title: "Šator za venčanje - Iznajmljivanje",
+      title: "Iznajmljivanje šatora Beograd",
       description:
-        "Iznajmljivanje elegantnih šatora za venčanja u Beogradu i Srbiji. Profesionalna montaža, različite veličine. Zatražite ponudu!",
+        "Iznajmljivanje šatora bele boje za sve vrste događaja u Beogradu i Srbiji. Modularni šatori širine 10m. Profesionalna montaža uključena.",
     },
   },
   {
-    slug: "sator-3x3",
+    slug: "iznajmljivanje-satora-3x3",
     category: "Šatori",
     categorySlug: "satori",
-    title: "Šator 3x3",
-    shortDescription: "Kompaktni šator 3x3m idealan za manje događaje i štandove.",
+    title: "Iznajmljivanje šatora 3x3",
+    shortDescription: "Šator 3x3m idealan za manje događaje, štandove i promocije.",
     description:
-      "Šator dimenzija 3x3 metra je idealan za manje događaje, štandove na sajmovima, garden partije i privremene zaklonjene prostore. Brza montaža i praktičan transport.",
+      "Šator dimenzija 3x3 metra idealan je za manje događaje, sajamske štandove, promocije, rođendane, okupljanja u dvorištu i razne privatne proslave. Odlikuje ga brza i jednostavna montaža, kao i praktičan transport, što ga čini odličnim rešenjem za situacije gde je potrebna brza montaža.",
     features: [
       "Dimenzije: 3x3 metra",
       "Brza i jednostavna montaža",
+      "Praktičan transport",
       "Idealan za štandove i manje događaje",
-      "Lak za transport",
       "Vodootporna cerada",
     ],
     images: satoriImages([6, 7, 8]),
     seo: {
-      title: "Šator 3x3 - Iznajmljivanje malih šatora",
+      title: "Iznajmljivanje šatora 3x3 Beograd",
       description:
-        "Iznajmljivanje šatora 3x3m u Beogradu. Idealan za štandove, garden partije i manje događaje. Brza montaža.",
-    },
-  },
-  {
-    slug: "magacinski-sator",
-    category: "Šatori",
-    categorySlug: "satori",
-    title: "Magacinski šator",
-    shortDescription: "Robusni magacinski šatori za skladištenje i industrijske potrebe.",
-    description:
-      "Magacinski šatori su idealno rešenje za privremeno ili dugoročno skladištenje robe, mašina i materijala. Izuzetno robusni i otporni na sve vremenske uslove.",
-    features: [
-      "Različite dimenzije po meri",
-      "Čelična konstrukcija",
-      "PVC cerada otporna na UV i vremenske uslove",
-      "Mogućnost ugradnje vrata i prozora",
-      "Dugoročna upotreba",
-      "Brza montaža",
-    ],
-    images: satoriImages([1, 5, 9]),
-    seo: {
-      title: "Magacinski šator - Iznajmljivanje i prodaja",
-      description:
-        "Magacinski šatori za skladištenje i industrijske potrebe. Robusna konstrukcija, različite dimenzije. Beograd i Srbija.",
-    },
-  },
-  {
-    slug: "industrijski-sator",
-    category: "Šatori",
-    categorySlug: "satori",
-    title: "Industrijski šator",
-    shortDescription: "Veliki industrijski šatori za proizvodnju i logistiku.",
-    description:
-      "Industrijski šatori su projektovani za najzahtevnije uslove. Idealni za proizvodne pogone, logističke centre, i velike skladišne prostore.",
-    features: [
-      "Veliki rasponi bez stubova",
-      "Teška čelična konstrukcija",
-      "Termoizolacija opciona",
-      "Industrijska vrata",
-      "Otpornost na vetar i sneg",
-      "Prilagodljive dimenzije",
-    ],
-    images: satoriImages([2, 4, 7]),
-    seo: {
-      title: "Industrijski šator - Veliki šatori za industriju",
-      description:
-        "Industrijski šatori za proizvodnju i logistiku. Veliki rasponi, robusna konstrukcija. Iznajmljivanje i prodaja u Srbiji.",
+        "Iznajmljivanje šatora 3x3m u Beogradu. Idealan za sajamske štandove, promocije, rođendane. Brza montaža.",
     },
   },
   {
@@ -119,45 +72,20 @@ export const products: Product[] = [
     category: "Šatori",
     categorySlug: "satori",
     title: "Prodaja šatora",
-    shortDescription: "Prodaja novih i polovnih šatora svih tipova i veličina.",
+    shortDescription: "Prodaja šatora različitih dimenzija i namena — novi i polovni.",
     description:
-      "Nudimo prodaju šatora svih tipova — od malih garden šatora do velikih industrijskih konstrukcija. Novi i polovni šatori po povoljnim cenama sa garancijom kvaliteta.",
+      "Nudimo prodaju šatora različitih dimenzija i namena — od kompaktnih modela za manje događaje do velikih modularnih šatora za proslave, manifestacije i komercijalnu upotrebu. U ponudi su novi i polovni šatori, uz pouzdan kvalitet i dugotrajnost.",
     features: [
       "Novi i polovni šatori",
       "Sve veličine i tipovi",
-      "Garancija kvaliteta",
-      "Dostava na teritoriji Srbije",
       "Stručni saveti pri izboru",
       "Povoljne cene",
     ],
-    images: satoriImages([3, 6, 8]),
+    images: satoriImages([3, 6, 9]),
     seo: {
       title: "Prodaja šatora - Novi i polovni šatori",
       description:
-        "Prodaja šatora u Srbiji. Novi i polovni šatori svih veličina. Garancija kvaliteta, dostava na teritoriji Srbije.",
-    },
-  },
-  {
-    slug: "montazne-hale",
-    category: "Šatori",
-    categorySlug: "satori",
-    title: "Montažne hale",
-    shortDescription: "Montažne hale za trajne i polutrajne objekte.",
-    description:
-      "Montažne hale su polutrajni objekti sa čeličnom konstrukcijom i PVC ili sendvič panel oblogom. Idealne za proizvodnju, skladištenje, sportske objekte i sajamske prostore.",
-    features: [
-      "Čelična konstrukcija",
-      "PVC ili sendvič paneli",
-      "Termoizolacija",
-      "Prilagodljive dimenzije",
-      "Brza montaža",
-      "Dugotrajan kvalitet",
-    ],
-    images: satoriImages([5, 9, 1]),
-    seo: {
-      title: "Montažne hale - Proizvodnja i montaža",
-      description:
-        "Montažne hale za skladištenje, proizvodnju i sportske objekte. Čelična konstrukcija, brza montaža. Srbija.",
+        "Prodaja šatora u Srbiji. Novi i polovni šatori svih dimenzija i namena. Povoljne cene, pouzdan kvalitet.",
     },
   },
 
@@ -167,22 +95,21 @@ export const products: Product[] = [
     category: "Pagode",
     categorySlug: "pagode",
     title: "Iznajmljivanje pagoda",
-    shortDescription: "Elegantne pagode za venčanja, proslave i korporativne događaje.",
+    shortDescription: "Elegantne pagode 5x5m za događaje na otvorenom.",
     description:
-      "Naše pagode su idealne za elegantne događaje na otvorenom. Dostupne u dimenzijama 3x3m, 4x4m, 5x5m i 6x6m. Mogu se spajati za veće površine. Profesionalna montaža uključena.",
+      "Naše pagode dimenzija 5x5 m predstavljaju vrhunski izbor za elegantne događaje na otvorenom. Zahvaljujući modernom dizajnu i visokom kvalitetu izrade, savršeno se uklapaju u venčanja, korporativne proslave i ekskluzivne događaje. Mogu se međusobno povezivati kako bi se dobile veće, funkcionalne celine.",
     features: [
-      "Dimenzije: 3x3, 4x4, 5x5, 6x6 metara",
+      "Dimenzije: 5x5 metara",
       "Mogućnost spajanja više pagoda",
       "Elegantna bela PVC cerada",
-      "Prozirne ili pune stranice",
       "Profesionalna montaža i demontaža",
       "Otpornost na kišu i vetar",
     ],
     images: pagodeImages([1, 2, 3, 4, 5, 6, 8, 9, 10]),
     seo: {
-      title: "Iznajmljivanje pagoda - Pagode za events",
+      title: "Iznajmljivanje pagoda Beograd",
       description:
-        "Iznajmljivanje elegantnih pagoda za venčanja i događaje u Beogradu. Dimenzije 3x3 do 6x6m. Profesionalna montaža uključena.",
+        "Iznajmljivanje elegantnih pagoda 5x5m za venčanja i događaje u Beogradu. Mogućnost spajanja. Profesionalna montaža uključena.",
     },
   },
   {
@@ -190,70 +117,22 @@ export const products: Product[] = [
     category: "Pagode",
     categorySlug: "pagode",
     title: "Prodaja pagoda",
-    shortDescription: "Prodaja novih pagoda sa garancijom kvaliteta.",
+    shortDescription: "Prodaja novih i polovnih pagoda visokog kvaliteta.",
     description:
-      "Nudimo prodaju novih pagoda vrhunskog kvaliteta. Idealne za restorane, hotele, event kompanije i privatne korisnike koji žele trajno rešenje za događaje na otvorenom.",
+      "Nudimo prodaju pagoda dimenzija 5x5 m, koje važe za jedno od najtraženijih i najpouzdanijih rešenja za događaje na otvorenom. Idealan su izbor za venčanja, korporativne događaje, sajmove, kao i za ugostiteljske objekte. U ponudi su nove i polovne pagode, izrađene od kvalitetnih materijala koji obezbeđuju dug vek trajanja i profesionalan izgled na svakoj lokaciji.",
     features: [
-      "Nove pagode sa garancijom",
-      "Sve standardne dimenzije",
-      "Čelični ili aluminijumski ram",
-      "UV otporna PVC cerada",
+      "Nove ili polovne pagode",
+      "Dimenzije: 5 × 5 m",
+      "Aluminijumska konstrukcija",
+      "Kvalitetna PVC cerada",
       "Dostava na teritoriji Srbije",
       "Stručna podrška pri izboru",
     ],
     images: pagodeImages([11, 12, 13, 14, 15]),
     seo: {
-      title: "Prodaja pagoda - Nove pagode",
+      title: "Prodaja pagoda - Nove i polovne pagode",
       description:
-        "Prodaja novih pagoda u Srbiji. Vrhunski kvalitet, garancija, sve dimenzije. Idealno za restorane i event kompanije.",
-    },
-  },
-
-  // ========== TIFFANY STOLICE ==========
-  {
-    slug: "bele",
-    category: "Tiffany stolice",
-    categorySlug: "tiffany-stolice",
-    title: "Bele Tiffany stolice",
-    shortDescription: "Klasične bele Tiffany stolice za elegantne događaje.",
-    description:
-      "Bele Tiffany stolice su sinonim za eleganciju. Idealne za venčanja, svečane večere i ekskluzivne događaje. Udobne, izdržljive i vizuelno upečatljive.",
-    features: [
-      "Klasičan beli Tiffany dizajn",
-      "Udoban sedi šte sa jastučićem",
-      "Izdržljiva polikarbonatna konstrukcija",
-      "Nosivost do 150 kg",
-      "Lako slaganje za transport",
-      "Dostupne u velikim količinama",
-    ],
-    images: pagodeImages([16, 17, 18]),
-    seo: {
-      title: "Bele Tiffany stolice - Iznajmljivanje",
-      description:
-        "Iznajmljivanje belih Tiffany stolica u Beogradu. Elegantne stolice za venčanja i svečane događaje. Povoljne cene.",
-    },
-  },
-  {
-    slug: "zlatne",
-    category: "Tiffany stolice",
-    categorySlug: "tiffany-stolice",
-    title: "Zlatne Tiffany stolice",
-    shortDescription: "Luksuzne zlatne Tiffany stolice za premium događaje.",
-    description:
-      "Zlatne Tiffany stolice dodaju dozu luksuza svakom događaju. Savršene za gala večere, ekskluzivne proslave i VIP zone.",
-    features: [
-      "Zlatna završna obrada",
-      "Udoban sedi šte sa jastučićem",
-      "Izdržljiva konstrukcija",
-      "Nosivost do 150 kg",
-      "Premium izgled",
-      "Dostupne u velikim količinama",
-    ],
-    images: pagodeImages([19, 20, 21]),
-    seo: {
-      title: "Zlatne Tiffany stolice - Iznajmljivanje",
-      description:
-        "Iznajmljivanje zlatnih Tiffany stolica u Beogradu. Luksuzne stolice za premium događaje. Dostava i montaža.",
+        "Prodaja pagoda 5x5m u Srbiji. Nove i polovne pagode, aluminijumska konstrukcija, kvalitetna PVC cerada. Dostava.",
     },
   },
 
@@ -262,156 +141,253 @@ export const products: Product[] = [
     slug: "stolovi",
     category: "Dodatna oprema",
     categorySlug: "dodatna-oprema",
-    title: "Stolovi",
-    shortDescription: "Okrugli i pravougaoni stolovi za sve tipove događaja.",
+    title: "Iznajmljivanje stolova",
+    shortDescription: "Okrugli, pravougaoni, pivski i barski stolovi za sve vrste događaja.",
     description:
-      "Nudimo iznajmljivanje stolova različitih oblika i dimenzija. Okrugli stolovi za svečane večere, pravougaoni za konferencije, koktel stolovi za koktele.",
-    features: ["Okrugli stolovi (Ø150, Ø180cm)", "Pravougaoni stolovi", "Koktel stolovi", "Beer garden stolovi", "Stabilna čelična konstrukcija"],
+      "Nudimo iznajmljivanje stolova za sve vrste događaja — od svečanih proslava i venčanja do korporativnih okupljanja i manifestacija. U ponudi imamo okrugle stolove dimenzija Ø155 i Ø180 cm, pravougaone stolove, pivske setove i barske stolove, koji se lako uklapaju u različite postavke prostora i tipove događaja.",
+    features: [
+      "Okrugli stolovi (Ø155 i Ø180 cm)",
+      "Pravougaoni stolovi",
+      "Pivski setovi",
+      "Barski stolovi",
+      "Stabilna konstrukcija",
+    ],
     images: pagodeImages([22, 23]),
-    seo: { title: "Stolovi za events - Iznajmljivanje", description: "Iznajmljivanje stolova za događaje u Beogradu. Okrugli, pravougaoni i koktel stolovi. Povoljne cene." },
+    seo: {
+      title: "Iznajmljivanje stolova Beograd",
+      description:
+        "Iznajmljivanje stolova za događaje u Beogradu. Okrugli, pravougaoni, pivski i barski stolovi. Povoljne cene.",
+    },
   },
   {
     slug: "stolice",
     category: "Dodatna oprema",
     categorySlug: "dodatna-oprema",
-    title: "Stolice",
-    shortDescription: "Razne stolice za sve vrste događaja.",
-    description: "Različiti tipovi stolica za svaki tip događaja — od plastičnih stolica za veće kapacitete do premium stolica za ekskluzivne proslave.",
-    features: ["Plastične stolice", "Drvene stolice", "Preklopne stolice", "Stolice sa navlakama", "Velike količine"],
-    images: pagodeImages([24, 25]),
-    seo: { title: "Stolice za events - Iznajmljivanje", description: "Iznajmljivanje stolica za događaje u Beogradu. Razni tipovi, povoljne cene." },
+    title: "Iznajmljivanje stolica",
+    shortDescription: "Tiffany, konferencijske i barske stolice za sve vrste događaja.",
+    description:
+      "Nudimo iznajmljivanje elegantnih Tiffany stolica, konferencijskih stolica i barskih stolica za sve vrste događaja — od venčanja i korporativnih proslava do konferencija i manje formalnih okupljanja. Stolice su udobne, stabilne i dostupne u većim količinama, što omogućava fleksibilnu organizaciju prostora.",
+    features: [
+      "Tiffany stolice",
+      "Konferencijske stolice",
+      "Barske stolice",
+      "Stabilne i udobne",
+      "Dostupne u većim količinama",
+    ],
+    images: pagodeImages([16, 17, 18]),
+    seo: {
+      title: "Iznajmljivanje stolica Beograd",
+      description:
+        "Iznajmljivanje Tiffany, konferencijskih i barskih stolica u Beogradu. Udobne i elegantne stolice za sve događaje.",
+    },
+  },
+  {
+    slug: "klima",
+    category: "Dodatna oprema",
+    categorySlug: "dodatna-oprema",
+    title: "Iznajmljivanje klima",
+    shortDescription: "Mobilni klima uređaji za šatore, sale i privremene prostorije.",
+    description:
+      "Nudimo iznajmljivanje mobilnih klima uređaja, pogodnih za manje zatvorene prostore poput šatora, sala i privremenih prostorija. Uređaji brzo i efikasno hlade prostor, obezbeđujući prijatnu temperaturu i udobnost za goste. Jednostavni su za upotrebu i mogu se koristiti u većim količinama po potrebi.",
+    features: [
+      "Mobilni klima uređaji",
+      "Pogodni za šatore, sale i privremene prostorije",
+      "Brzo i efikasno hlađenje",
+      "Jednostavna upotreba",
+      "Dostupni u većim količinama",
+    ],
+    images: pagodeImages([2, 3]),
+    seo: {
+      title: "Iznajmljivanje klima uređaja Beograd",
+      description:
+        "Iznajmljivanje mobilnih klima uređaja za šatore i events u Beogradu. Brzo hlađenje, jednostavna upotreba.",
+    },
+  },
+  {
+    slug: "ventilatori",
+    category: "Dodatna oprema",
+    categorySlug: "dodatna-oprema",
+    title: "Iznajmljivanje ventilatora",
+    shortDescription: "Mobilni ventilatori sa raspršivačem vode za osvežavanje.",
+    description:
+      "Nudimo iznajmljivanje mobilnih ventilatora sa raspršivačem vode, pogodnih za šatore, sale i privremene prostorije. Ventilatori efikasno osvežavaju prostor i poboljšavaju cirkulaciju vazduha, a dodatni raspršivač vode pruža prijatan osećaj hlađenja tokom toplih dana. Jednostavni su za postavljanje i upotrebu, dostupni u većim količinama po potrebi.",
+    features: [
+      "Mobilni ventilatori sa raspršivačem vode",
+      "Pogodni za šatore, sale i privremene prostorije",
+      "Efikasno osvežavanje i cirkulacija vazduha",
+      "Jednostavna upotreba",
+      "Dostupni u većim količinama",
+    ],
+    images: pagodeImages([4, 5]),
+    seo: {
+      title: "Iznajmljivanje ventilatora Beograd",
+      description:
+        "Iznajmljivanje mobilnih ventilatora sa raspršivačem vode za šatore i events u Beogradu.",
+    },
+  },
+  {
+    slug: "plinske-grejalice",
+    category: "Dodatna oprema",
+    categorySlug: "dodatna-oprema",
+    title: "Iznajmljivanje plinskih grejalica",
+    shortDescription: "Plinske grejalice za spoljašnje prostore i događaje.",
+    description:
+      "Nudimo iznajmljivanje plinskih grejalica, idealnih za spoljašnje prostore kada je potrebna dodatna toplota. Grejalice brzo zagrevaju okolni prostor i obezbeđuju prijatnu temperaturu za goste.",
+    features: [
+      "Plinske grejalice",
+      "Idealne za spoljašnje prostore",
+      "Brzo i efikasno zagrevanje",
+    ],
+    images: pagodeImages([6, 8]),
+    seo: {
+      title: "Iznajmljivanje plinskih grejalica Beograd",
+      description:
+        "Iznajmljivanje plinskih grejalica za spoljašnje prostore i events u Beogradu. Brzo zagrevanje.",
+    },
+  },
+  {
+    slug: "pivski-setovi",
+    category: "Dodatna oprema",
+    categorySlug: "dodatna-oprema",
+    title: "Iznajmljivanje pivskih setova",
+    shortDescription: "Pivski setovi (sto + 2 klupe) za festivale i proslave.",
+    description:
+      "Nudimo iznajmljivanje pivskih setova koji se sastoje od pravougaonog stola i dve klupe. Idealni su za festivale, korporativne događaje, koncerte i proslave na otvorenom.",
+    features: [
+      "Pivski setovi (sto + 2 klupe)",
+      "Praktični i funkcionalni za događaje na otvorenom",
+      "Brza i jednostavna postavka",
+    ],
+    images: pagodeImages([9, 10]),
+    seo: {
+      title: "Iznajmljivanje pivskih setova Beograd",
+      description:
+        "Iznajmljivanje pivskih setova za festivale i proslave u Beogradu. Sto + 2 klupe, brza postavka.",
+    },
+  },
+  {
+    slug: "govornice",
+    category: "Dodatna oprema",
+    categorySlug: "dodatna-oprema",
+    title: "Iznajmljivanje govornica",
+    shortDescription: "Kliritne govornice za seminare, konferencije i predavanja.",
+    description:
+      "Nudimo iznajmljivanje kliritnih govornica, idealnih za seminare, konferencije, predavanja i prezentacije. Mobilne i praktične, mogu se postaviti na bilo kojoj lokaciji i olakšavaju profesionalno vođenje događaja.",
+    features: [
+      "Kliritne govornice",
+      "Mobilne i jednostavne za postavljanje",
+      "Pogodne za seminare, konferencije i predavanja",
+    ],
+    images: pagodeImages([11, 12]),
+    seo: {
+      title: "Iznajmljivanje govornica Beograd",
+      description:
+        "Iznajmljivanje kliritnih govornica za seminare i konferencije u Beogradu. Mobilne i praktične.",
+    },
   },
   {
     slug: "suncobrani",
     category: "Dodatna oprema",
     categorySlug: "dodatna-oprema",
-    title: "Suncobrani",
-    shortDescription: "Veliki suncobrani za zaštitu od sunca na events.",
-    description: "Profesionalni suncobrani velikih dimenzija za zaštitu od sunca na događajima, baštama restorana i terasama.",
-    features: ["Veliki prečnik (3-5m)", "UV zaštita", "Stabilna baza", "Razne boje"],
+    title: "Iznajmljivanje suncobrana",
+    shortDescription: "Profesionalni beli suncobrani za događaje i bašte.",
+    description:
+      "Nudimo iznajmljivanje profesionalnih belih suncobrana, idealnih za događaje, bašte restorana i terase. Suncobrani pružaju efikasnu zaštitu od sunca i doprinose prijatnom ambijentu na otvorenom.",
+    features: [
+      "Profesionalni beli suncobrani",
+      "Efikasna zaštita od sunca",
+      "Stabilna baza",
+    ],
     images: pagodeImages([26, 27]),
-    seo: { title: "Suncobrani - Iznajmljivanje", description: "Iznajmljivanje velikih suncobrana za events i bašte u Beogradu." },
-  },
-  {
-    slug: "grejanje",
-    category: "Dodatna oprema",
-    categorySlug: "dodatna-oprema",
-    title: "Grejanje",
-    shortDescription: "Sistemi grejanja za šatore i spoljne prostore.",
-    description: "Profesionalni sistemi grejanja koji omogućavaju korišćenje šatora i tokom hladnijih meseci. Gasni i električni grejači.",
-    features: ["Gasni grejači", "Električni grejači", "Infracrveni grejači", "Grejanje za velike šatore"],
-    images: pagodeImages([28, 1]),
-    seo: { title: "Grejanje šatora - Iznajmljivanje", description: "Iznajmljivanje sistema za grejanje šatora u Beogradu. Gasni i električni grejači." },
-  },
-  {
-    slug: "klimatizacija",
-    category: "Dodatna oprema",
-    categorySlug: "dodatna-oprema",
-    title: "Klimatizacija",
-    shortDescription: "Sistemi klimatizacije za šatore i event prostore.",
-    description: "Mobilni klima uređaji i sistemi za hlađenje koji obezbeđuju ugodan ambijent u šatorima tokom letnjih meseci.",
-    features: ["Mobilni klima uređaji", "Industrijski ventilatori", "Hlađenje velikih prostora", "Tihi rad"],
-    images: pagodeImages([2, 3]),
-    seo: { title: "Klimatizacija šatora - Iznajmljivanje", description: "Iznajmljivanje klima uređaja za šatore i events u Beogradu." },
-  },
-  {
-    slug: "rasveta",
-    category: "Dodatna oprema",
-    categorySlug: "dodatna-oprema",
-    title: "Rasveta",
-    shortDescription: "Profesionalna rasveta za events i šatore.",
-    description: "Kompletna rasveta za događaje — od ambijentalne rasvete za venčanja do profesionalne scene rasvete za koncerte i korporativne događaje.",
-    features: ["Ambijentalna rasveta", "LED trake", "Par reflektori", "Lusteri za šatore", "Fairy lights"],
-    images: pagodeImages([4, 5]),
-    seo: { title: "Rasveta za events - Iznajmljivanje", description: "Iznajmljivanje profesionalne rasvete za events i šatore u Beogradu." },
-  },
-  {
-    slug: "podijumi",
-    category: "Dodatna oprema",
-    categorySlug: "dodatna-oprema",
-    title: "Podijumi i bine",
-    shortDescription: "Podijumi i bine za sve vrste događaja i nastupa.",
-    description: "Modularne bine i podijumi za koncerte, konferencije, modne revije i sve tipove nastupa. Prilagodljive dimenzije i visine.",
-    features: ["Modularne konstrukcije", "Razne dimenzije", "Prilagodljive visine", "Stepenište i rampe", "Sigurnosne ograde"],
-    images: pagodeImages([6, 8]),
-    seo: { title: "Podijumi i bine - Iznajmljivanje", description: "Iznajmljivanje podijuma i bina za events u Beogradu. Modularne konstrukcije." },
-  },
-  {
-    slug: "beer-setovi",
-    category: "Dodatna oprema",
-    categorySlug: "dodatna-oprema",
-    title: "Beer setovi",
-    shortDescription: "Beer garden setovi sa klupama i stolovima.",
-    description: "Klasični beer garden setovi (sto + 2 klupe) za festivale, oktoberfest događaje, bašte i outdoor proslave.",
-    features: ["Drveni sto + 2 klupe", "Kapacitet 6-8 osoba po setu", "Stabilna konstrukcija", "Lako slaganje"],
-    images: pagodeImages([9, 10]),
-    seo: { title: "Beer setovi - Iznajmljivanje", description: "Iznajmljivanje beer garden setova u Beogradu. Sto + klupe za festivale i proslave." },
-  },
-  {
-    slug: "escajg",
-    category: "Dodatna oprema",
-    categorySlug: "dodatna-oprema",
-    title: "Escajg i porcelan",
-    shortDescription: "Kompletni setovi escajga i porcelana za events.",
-    description: "Profesionalni escajg i porcelanski setovi za svečane večere i event ketering. Tanjiri, čaše, pribor za jelo.",
-    features: ["Porcelanski tanjiri", "Kristalne čaše", "Inox pribor za jelo", "Salvete i stolnjaci", "Kompletni setovi"],
-    images: pagodeImages([11, 12]),
-    seo: { title: "Escajg i porcelan - Iznajmljivanje", description: "Iznajmljivanje escajga i porcelana za events u Beogradu." },
-  },
-  {
-    slug: "ograde",
-    category: "Dodatna oprema",
-    categorySlug: "dodatna-oprema",
-    title: "Ograde (HERAS)",
-    shortDescription: "HERAS ograde za obezbeđenje events i gradilišta.",
-    description: "Mobilne HERAS ograde za obezbeđenje perimetra na festivalima, gradilištima, sportskim događajima i koncertima.",
-    features: ["Standardne HERAS dimenzije", "Betonska postolja", "Laka montaža", "Velike količine"],
-    images: pagodeImages([13, 14]),
-    seo: { title: "HERAS ograde - Iznajmljivanje", description: "Iznajmljivanje HERAS ograda za events i gradilišta u Beogradu." },
-  },
-  {
-    slug: "barijere",
-    category: "Dodatna oprema",
-    categorySlug: "dodatna-oprema",
-    title: "Barijere",
-    shortDescription: "Barijere za kontrolu publike na events.",
-    description: "Metalne barijere za kontrolu protoka publike na koncertima, festivalima i javnim događajima.",
-    features: ["Čelične barijere", "Standardne dimenzije", "Sigurnosni mehanizmi", "Lako povezivanje"],
-    images: pagodeImages([15, 16]),
-    seo: { title: "Barijere - Iznajmljivanje", description: "Iznajmljivanje barijera za kontrolu publike na events u Beogradu." },
+    seo: {
+      title: "Iznajmljivanje suncobrana Beograd",
+      description:
+        "Iznajmljivanje profesionalnih belih suncobrana za events i bašte u Beogradu.",
+    },
   },
   {
     slug: "barski-stolovi",
     category: "Dodatna oprema",
     categorySlug: "dodatna-oprema",
-    title: "Barski stolovi",
-    shortDescription: "Visoki barski stolovi za koktel events.",
-    description: "Elegantni barski stolovi za koktel events, VIP zone i bar prostore. Razni stilovi i završne obrade.",
-    features: ["Visina 110cm", "Razni stilovi", "Stabilna baza", "LED opcije"],
+    title: "Iznajmljivanje barskih stolova",
+    shortDescription: "Sklopivi barski stolovi sa belom ili crnom navlakom.",
+    description:
+      "Nudimo iznajmljivanje barskih stolova, pogodnih za korporativne događaje, proslave i okupljanja. Stolovi se mogu iznajmiti sa belom ili crnom navlakom, prilagođeni stilu vašeg događaja i dekoraciji prostora.",
+    features: [
+      "Sklopivi barski stolovi",
+      "Bela ili crna navlaka",
+      "Pogodni za proslave, korporativne događaje i okupljanja",
+      "Stabilna konstrukcija",
+    ],
     images: pagodeImages([17, 18]),
-    seo: { title: "Barski stolovi - Iznajmljivanje", description: "Iznajmljivanje barskih stolova za koktel events u Beogradu." },
-  },
-  {
-    slug: "barske-stolice",
-    category: "Dodatna oprema",
-    categorySlug: "dodatna-oprema",
-    title: "Barske stolice",
-    shortDescription: "Visoke barske stolice za bar zone.",
-    description: "Barske stolice za upotrebu uz barske stolove na koktel events, VIP zonama i lounge prostorima.",
-    features: ["Visina prilagođena barskim stolovima", "Udobne", "Razni materijali", "Moderne i klasične opcije"],
-    images: pagodeImages([19, 20]),
-    seo: { title: "Barske stolice - Iznajmljivanje", description: "Iznajmljivanje barskih stolica za events u Beogradu." },
+    seo: {
+      title: "Iznajmljivanje barskih stolova Beograd",
+      description:
+        "Iznajmljivanje barskih stolova za korporativne događaje i proslave u Beogradu. Bela ili crna navlaka.",
+    },
   },
   {
     slug: "fotelje",
     category: "Dodatna oprema",
     categorySlug: "dodatna-oprema",
-    title: "Fotelje",
-    shortDescription: "Lounge fotelje za VIP zone i chill-out prostore.",
-    description: "Elegantne lounge fotelje za VIP zone, chill-out prostore i ekskluzivne događaje. Udobne i vizuelno atraktivne.",
-    features: ["Lounge fotelje", "Razni stilovi", "Udobno sedenje", "Premium izgled"],
+    title: "Iznajmljivanje fotelja",
+    shortDescription: "Fotelje u crnoj eko koži za VIP zone i events.",
+    description:
+      "Nudimo iznajmljivanje fotelja u crnoj eko koži, idealnih za VIP zone, chill-out prostore, seminare, korporativne događaje i sajamske prezentacije. Fotelje su udobne, elegantne i vizuelno atraktivne, čime prostoru daju ekskluzivan izgled.",
+    features: [
+      "Fotelje",
+      "Crna eko koža",
+      "Udobno sedenje",
+      "Elegantni i premium izgled",
+    ],
     images: pagodeImages([21, 22]),
-    seo: { title: "Fotelje - Iznajmljivanje", description: "Iznajmljivanje lounge fotelja za VIP zone i events u Beogradu." },
+    seo: {
+      title: "Iznajmljivanje fotelja Beograd",
+      description:
+        "Iznajmljivanje fotelja u crnoj eko koži za VIP zone i events u Beogradu. Udobne i elegantne.",
+    },
+  },
+  {
+    slug: "pribor-za-jelo",
+    category: "Dodatna oprema",
+    categorySlug: "dodatna-oprema",
+    title: "Iznajmljivanje pribora za jelo",
+    shortDescription: "Escajg, tanjiri i čaše za sve vrste događaja.",
+    description:
+      "Nudimo iznajmljivanje escajga, tanjira i čaša za sve vrste događaja i proslava. U ponudi su kašike, viljuške, noževi i male kašičice, dostupni i u elegantnoj zlatnoj varijanti, kao i tanjiri i čaše visokog kvaliteta koji doprinose svečanom izgledu stola.",
+    features: [
+      "Zlatni pribor",
+      "Porcelanski tanjiri",
+      "Sve vrste čaša",
+      "Elegantni i profesionalni setovi",
+    ],
+    images: pagodeImages([13, 14]),
+    seo: {
+      title: "Iznajmljivanje pribora za jelo Beograd",
+      description:
+        "Iznajmljivanje escajga, tanjira i čaša za events u Beogradu. Zlatni pribor, porcelanski tanjiri.",
+    },
+  },
+  {
+    slug: "barijere",
+    category: "Dodatna oprema",
+    categorySlug: "dodatna-oprema",
+    title: "Iznajmljivanje barijera",
+    shortDescription: "Barijere sa stubićima i kanapima za kontrolu pristupa.",
+    description:
+      "Nudimo iznajmljivanje barijera sa stubićima i kanapima, idealnih za kontrolu pristupa, organizaciju redova i definisanje VIP zona na događajima. Kanapi su dostupni u crvenoj, plavoj i crnoj boji, što omogućava prilagođavanje stilu i dekoraciji događaja.",
+    features: [
+      "Barijere sa stubićima i kanapima",
+      "Kanapi u crvenoj, plavoj i crnoj boji",
+      "Idealne za kontrolu pristupa i definisanje zona",
+      "Elegantno i profesionalno rešenje za događaje",
+    ],
+    images: pagodeImages([15, 16]),
+    seo: {
+      title: "Iznajmljivanje barijera Beograd",
+      description:
+        "Iznajmljivanje barijera sa stubićima i kanapima za events u Beogradu. Kontrola pristupa i VIP zone.",
+    },
   },
 ];
 

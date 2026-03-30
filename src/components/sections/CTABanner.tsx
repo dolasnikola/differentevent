@@ -12,7 +12,7 @@ export function CTABanner() {
         <AnimateOnScroll variant="scaleIn">
           <div className="text-center">
             <h2 className="font-playfair text-3xl font-bold text-navy-900 sm:text-4xl">
-              Zatražite ponudu
+              Pošaljite upit
             </h2>
             <p className="mt-4 text-lg text-navy-900/70 max-w-2xl mx-auto">
               Kontaktirajte nas za besplatnu ponudu. Naš tim je spreman da vam

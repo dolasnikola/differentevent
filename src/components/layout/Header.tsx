@@ -33,14 +33,11 @@ export function Header() {
             <Image
               src={`${basePath}/images/logo/logo.png`}
               alt="Different Event logo"
-              width={48}
-              height={48}
-              className="h-10 w-auto sm:h-12"
+              width={64}
+              height={64}
+              className="h-14 w-auto sm:h-16"
               priority
             />
-            <span className="font-playfair text-lg font-bold text-white sm:text-xl">
-              Different Event
-            </span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -91,7 +88,7 @@ export function Header() {
             href="/kontakt"
             className="hidden lg:inline-flex items-center px-5 py-2.5 text-sm font-semibold rounded-lg bg-gold-400 text-navy-900 hover:bg-gold-300 transition-colors"
           >
-            Zatražite ponudu
+            Pošaljite upit
           </Link>
 
           {/* Mobile Hamburger */}

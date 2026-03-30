@@ -25,7 +25,7 @@ export function Footer() {
             </Link>
             <p className="text-sm text-white/60 leading-relaxed">
               Profesionalno iznajmljivanje šatora, pagoda i opreme za sve vrste
-              događaja. 15+ godina iskustva u organizaciji nezaboravnih momenata.
+              događaja. Višegodišnje iskustvo u organizaciji nezaboravnih momenata.
             </p>
           </div>
 
@@ -36,11 +36,9 @@ export function Footer() {
             </h3>
             <ul className="space-y-2">
               {[
-                { label: "Šatori", href: "/satori" },
                 { label: "Pagode", href: "/pagode" },
-                { label: "Tiffany stolice", href: "/tiffany-stolice" },
+                { label: "Šatori", href: "/satori" },
                 { label: "Dodatna oprema", href: "/dodatna-oprema" },
-                { label: "Galerija", href: "/galerija" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
@@ -62,7 +60,7 @@ export function Footer() {
             <ul className="space-y-2">
               {[
                 { label: "O nama", href: "/o-nama" },
-                { label: "Video", href: "/video" },
+                { label: "Galerija", href: "/galerija" },
                 { label: "Kontakt", href: "/kontakt" },
               ].map((link) => (
                 <li key={link.href}>
@@ -104,6 +102,18 @@ export function Footer() {
               </li>
               <li>
                 <a
+                  href={`tel:${siteConfig.phone2}`}
+                  className="flex items-center gap-3 hover:text-gold-400 transition-colors"
+                  data-phone-number={siteConfig.phone2}
+                >
+                  <svg className="h-5 w-5 shrink-0 text-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  {siteConfig.phone2Display}
+                </a>
+              </li>
+              <li>
+                <a
                   href={`mailto:${siteConfig.email}`}
                   className="flex items-center gap-3 hover:text-gold-400 transition-colors"
                 >
@@ -113,11 +123,16 @@ export function Footer() {
                   {siteConfig.email}
                 </a>
               </li>
-              <li className="flex items-center gap-3">
-                <svg className="h-5 w-5 shrink-0 text-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                {siteConfig.workingHours}
+              <li>
+                <a
+                  href={`mailto:${siteConfig.email2}`}
+                  className="flex items-center gap-3 hover:text-gold-400 transition-colors"
+                >
+                  <svg className="h-5 w-5 shrink-0 text-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  {siteConfig.email2}
+                </a>
               </li>
             </ul>
 

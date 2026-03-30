@@ -84,7 +84,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
           onClick={onClose}
           className="flex items-center justify-center rounded-lg border-2 border-gold-400 px-6 py-3 font-semibold text-gold-400"
         >
-          Zatražite ponudu
+          Pošaljite upit
         </Link>
       </div>
     </div>

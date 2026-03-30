@@ -118,7 +118,7 @@ export function ReviewJsonLd() {
     name: siteConfig.name,
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: "4.3",
+      ratingValue: "4.5",
       reviewCount: "16",
       bestRating: "5",
     },

@@ -95,7 +95,7 @@ export function Hero() {
           className="mt-8 flex flex-col gap-4 sm:flex-row"
         >
           <Button href="/kontakt" size="lg">
-            Zatražite ponudu
+            Pošaljite upit
           </Button>
           <Button href="/satori" variant="outline" size="lg">
             Pogledajte ponudu

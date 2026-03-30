@@ -2,10 +2,13 @@ export const siteConfig = {
   name: "Different Event",
   url: "https://differentevent.rs",
   description:
-    "Iznajmljivanje šatora, pagoda, Tiffany stolica i opreme za sve vrste događaja u Beogradu i Srbiji. Profesionalna usluga sa 15+ godina iskustva.",
+    "Iznajmljivanje šatora, pagoda i kompletne opreme za sve vrste događaja u Beogradu i Srbiji. Višegodišnje iskustvo u organizaciji nezaboravnih momenata.",
   phone: "+381636511192",
   phoneDisplay: "063 651 192",
-  email: "info@differentevent.rs",
+  phone2: "+381696511196",
+  phone2Display: "069 651 196",
+  email: "office@differentevent.rs",
+  email2: "marceta@differentevent.rs",
   address: {
     street: "Ljube Rankovića 19",
     city: "Ostružnica, Beograd",
@@ -15,7 +18,7 @@ export const siteConfig = {
   workingHours: "Pon-Ned: 08:00-20:00",
   social: {
     facebook: "https://www.facebook.com/differentevent",
-    instagram: "https://www.instagram.com/differentevent",
+    instagram: "https://www.instagram.com/differentevent.rs",
   },
   googleMaps: {
     lat: 44.7266044,

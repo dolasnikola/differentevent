@@ -7,26 +7,20 @@ import { basePath } from "@/lib/images";
 
 const categories = [
   {
-    title: "Šatori",
-    description: "Šatori za venčanja, proslave, sajmove i industrijske potrebe. Različite veličine i tipovi.",
-    image: `${basePath}/images/satori/sator-1.jpg`,
-    href: "/satori",
-  },
-  {
     title: "Pagode",
     description: "Elegantne pagode za sve vrste događaja. Iznajmljivanje i prodaja.",
     image: `${basePath}/images/pagode/pagode-1.jpg`,
     href: "/pagode",
   },
   {
-    title: "Tiffany stolice",
-    description: "Luksuzne Tiffany stolice u beloj i zlatnoj boji za elegantne događaje.",
-    image: `${basePath}/images/pagode/pagode-3.jpg`,
-    href: "/tiffany-stolice",
+    title: "Šatori",
+    description: "Šatori bele boje, modernog dizajna, pogodni za sve vrste događaja.",
+    image: `${basePath}/images/satori/sator-1.jpg`,
+    href: "/satori",
   },
   {
     title: "Dodatna oprema",
-    description: "Stolovi, stolice, rasveta, grejanje, klimatizacija i sve što vam je potrebno.",
+    description: "Stolovi, stolice, klima, grejanje, suncobrani i sve što vam je potrebno.",
     image: `${basePath}/images/pagode/pagode-5.jpg`,
     href: "/dodatna-oprema",
   },
@@ -45,7 +39,7 @@ export function ProductGrid() {
           </p>
         </AnimateOnScroll>
 
-        <StaggerContainer className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <StaggerContainer className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {categories.map((cat) => (
             <StaggerItem key={cat.href}>
               <Card

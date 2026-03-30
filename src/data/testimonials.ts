@@ -24,6 +24,6 @@ export const testimonials: Testimonial[] = [
 ];
 
 export const googleRating = {
-  average: 4.3,
+  average: 4.5,
   total: 16,
 };
