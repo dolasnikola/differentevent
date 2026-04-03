@@ -88,51 +88,31 @@ export function Footer() {
                 </svg>
                 <span>{siteConfig.address.street}<br />{siteConfig.address.city}</span>
               </li>
-              <li>
-                <a
-                  href={`tel:${siteConfig.phone}`}
-                  className="flex items-center gap-3 hover:text-gold-400 transition-colors"
-                  data-phone-number={siteConfig.phone}
-                >
-                  <svg className="h-5 w-5 shrink-0 text-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                  {siteConfig.phoneDisplay}
-                </a>
+              <li className="flex items-start gap-3">
+                <svg className="h-5 w-5 mt-0.5 shrink-0 text-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                <div className="flex flex-col gap-1">
+                  <a href={`tel:${siteConfig.phone}`} className="hover:text-gold-400 transition-colors" data-phone-number={siteConfig.phone}>
+                    {siteConfig.phoneDisplay}
+                  </a>
+                  <a href={`tel:${siteConfig.phone2}`} className="hover:text-gold-400 transition-colors" data-phone-number={siteConfig.phone2}>
+                    {siteConfig.phone2Display}
+                  </a>
+                </div>
               </li>
-              <li>
-                <a
-                  href={`tel:${siteConfig.phone2}`}
-                  className="flex items-center gap-3 hover:text-gold-400 transition-colors"
-                  data-phone-number={siteConfig.phone2}
-                >
-                  <svg className="h-5 w-5 shrink-0 text-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                  {siteConfig.phone2Display}
-                </a>
-              </li>
-              <li>
-                <a
-                  href={`mailto:${siteConfig.email}`}
-                  className="flex items-center gap-3 hover:text-gold-400 transition-colors"
-                >
-                  <svg className="h-5 w-5 shrink-0 text-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                  {siteConfig.email}
-                </a>
-              </li>
-              <li>
-                <a
-                  href={`mailto:${siteConfig.email2}`}
-                  className="flex items-center gap-3 hover:text-gold-400 transition-colors"
-                >
-                  <svg className="h-5 w-5 shrink-0 text-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                  {siteConfig.email2}
-                </a>
+              <li className="flex items-start gap-3">
+                <svg className="h-5 w-5 mt-0.5 shrink-0 text-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <div className="flex flex-col gap-1">
+                  <a href={`mailto:${siteConfig.email}`} className="hover:text-gold-400 transition-colors">
+                    {siteConfig.email}
+                  </a>
+                  <a href={`mailto:${siteConfig.email2}`} className="hover:text-gold-400 transition-colors">
+                    {siteConfig.email2}
+                  </a>
+                </div>
               </li>
             </ul>
 

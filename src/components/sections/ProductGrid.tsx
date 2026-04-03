@@ -9,19 +9,19 @@ const categories = [
   {
     title: "Pagode",
     description: "Elegantne pagode za sve vrste događaja. Iznajmljivanje i prodaja.",
-    image: `${basePath}/images/pagode/pagode-1.jpg`,
+    image: `${basePath}/images/pagode/Iznajmljivanje-pagoda-7.webp`,
     href: "/pagode",
   },
   {
     title: "Šatori",
     description: "Šatori bele boje, modernog dizajna, pogodni za sve vrste događaja.",
-    image: `${basePath}/images/satori/sator-1.jpg`,
+    image: `${basePath}/images/satori/Iznajmljivanje-satora-2.webp`,
     href: "/satori",
   },
   {
     title: "Dodatna oprema",
     description: "Stolovi, stolice, klima, grejanje, suncobrani i sve što vam je potrebno.",
-    image: `${basePath}/images/pagode/pagode-5.jpg`,
+    image: `${basePath}/images/oprema/Iznajmljivanje-stolova-1.webp`,
     href: "/dodatna-oprema",
   },
 ];

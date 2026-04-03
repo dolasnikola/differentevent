@@ -56,8 +56,11 @@ export default function KontaktPage() {
                       </svg>
                       <div>
                         <p className="font-medium">Telefon</p>
-                        <a href={`tel:${siteConfig.phone}`} className="text-gold-400 hover:text-gold-300 transition-colors" data-phone-number={siteConfig.phone}>
+                        <a href={`tel:${siteConfig.phone}`} className="text-gold-400 hover:text-gold-300 transition-colors block" data-phone-number={siteConfig.phone}>
                           {siteConfig.phoneDisplay}
+                        </a>
+                        <a href={`tel:${siteConfig.phone2}`} className="text-gold-400 hover:text-gold-300 transition-colors block" data-phone-number={siteConfig.phone2}>
+                          {siteConfig.phone2Display}
                         </a>
                       </div>
                     </li>
@@ -67,8 +70,11 @@ export default function KontaktPage() {
                       </svg>
                       <div>
                         <p className="font-medium">Email</p>
-                        <a href={`mailto:${siteConfig.email}`} className="text-gold-400 hover:text-gold-300 transition-colors">
+                        <a href={`mailto:${siteConfig.email}`} className="text-gold-400 hover:text-gold-300 transition-colors block">
                           {siteConfig.email}
+                        </a>
+                        <a href={`mailto:${siteConfig.email2}`} className="text-gold-400 hover:text-gold-300 transition-colors block">
+                          {siteConfig.email2}
                         </a>
                       </div>
                     </li>

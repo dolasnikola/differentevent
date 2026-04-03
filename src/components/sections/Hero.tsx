@@ -8,16 +8,16 @@ import { basePath } from "@/lib/images";
 
 const slides = [
   {
-    image: `${basePath}/images/pagode/pagode-1.jpg`,
+    image: `${basePath}/images/pagode/Iznajmljivanje-pagoda-1.webp`,
     alt: "Pagode za events - Different Event Beograd",
   },
   {
-    image: `${basePath}/images/satori/sator-1.jpg`,
-    alt: "Šatori za venčanja - Different Event Beograd",
+    image: `${basePath}/images/pagode/Iznajmljivanje-pagoda-2.webp`,
+    alt: "Iznajmljivanje pagoda - Different Event Beograd",
   },
   {
-    image: `${basePath}/images/pagode/pagode-5.jpg`,
-    alt: "Oprema za proslave - Different Event Beograd",
+    image: `${basePath}/images/pagode/Iznajmljivanje-pagoda-3.webp`,
+    alt: "Pagode za venčanja - Different Event Beograd",
   },
 ];
 

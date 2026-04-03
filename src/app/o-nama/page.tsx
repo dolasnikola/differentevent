@@ -41,7 +41,7 @@ export default function ONamaPage() {
             <AnimateOnScroll variant="slideLeft">
               <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
                 <Image
-                  src={`${basePath}/images/pagode/pagode-2.jpg`}
+                  src={`${basePath}/images/different-event.webp`}
                   alt="Different Event tim na terenu"
                   fill
                   className="object-cover"
@@ -51,19 +51,30 @@ export default function ONamaPage() {
             </AnimateOnScroll>
             <AnimateOnScroll variant="slideRight">
               <h2 className="font-playfair text-2xl font-bold text-navy-900 sm:text-3xl">
-                Više od 15 godina na tržištu
+                O nama
               </h2>
               <p className="mt-4 text-navy-700 leading-relaxed">
-                Different Event je kompanija sa dugogodišnjim iskustvom u iznajmljivanju
-                šatora, pagoda i kompletne event opreme. Od skromnih početaka do jednog od
-                vodećih pružalaca usluga u Srbiji, naš put je obeležen posvećenošću
-                kvalitetu i zadovoljstvu klijenata.
+                Different Event je firma specijalizovana za iznajmljivanje šatora, pagoda
+                i kompletne opreme za događaje, sa iskustvom u organizaciji različitih
+                vrsta proslava i manifestacija još od 2013. godine.
               </p>
               <p className="mt-4 text-navy-700 leading-relaxed">
-                Naš tim profesionalaca brine o svakom detalju — od prvog kontakta,
-                preko planiranja i montaže, do demontaže nakon vašeg događaja.
-                Garantujemo da će vaš prostor biti spreman na vreme i da će izgledati
-                tačno onako kako ste zamislili.
+                Naš cilj je da svakom klijentu obezbedimo funkcionalan, estetski i
+                pouzdan prostor – bilo da se radi o venčanjima, korporativnim događajima,
+                promocijama ili privatnim proslavama.
+              </p>
+              <p className="mt-4 text-navy-700 leading-relaxed">
+                Prilagođavamo se vašim potrebama i lokaciji, uz pažljivo planiranje i
+                tehničku podršku na terenu.
+              </p>
+              <p className="mt-4 text-navy-700 leading-relaxed">
+                U ponudi imamo pagoda šatore, velike modularne šatore, stolove, stolice i
+                prateću opremu, uz kompletnu uslugu montaže i demontaže.
+              </p>
+              <p className="mt-4 text-navy-700 leading-relaxed">
+                Bilo da organizujete događaj na otvorenom ili u zatvorenom prostoru,
+                Different Event je partner na kog možete da se oslonite za sigurno,
+                kvalitetno i profesionalno rešenje.
               </p>
             </AnimateOnScroll>
           </div>
@@ -71,7 +82,7 @@ export default function ONamaPage() {
       </section>
 
       <ParallaxSection
-        image={`${basePath}/images/satori/sator-3.jpg`}
+        image={`${basePath}/images/satori/Iznajmljivanje-satora-3.webp`}
         title="Svaki detalj je bitan"
         subtitle="Od malih privatnih proslava do velikih korporativnih događaja — pristupamo svakom projektu sa istom posvećenošću i profesionalizmom."
       />

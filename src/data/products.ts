@@ -16,10 +16,10 @@ export interface Product {
 import { basePath } from "@/lib/images";
 
 // Helper za generisanje slika
-const pagodeImages = (indices: number[]) =>
-  indices.map((i) => `${basePath}/images/pagode/pagode-${i}.jpg`);
-const satoriImages = (indices: number[]) =>
-  indices.map((i) => `${basePath}/images/satori/sator-${i}.jpg`);
+const pagodaImg = (n: number) => `${basePath}/images/pagode/Iznajmljivanje-pagoda-${n}.webp`;
+const satorImg = (n: number) => `${basePath}/images/satori/Iznajmljivanje-satora-${n}.webp`;
+const sator3x3Img = (n: number) => `${basePath}/images/satori-3x3/Iznajmljivanje-satora-3x3-${n}.webp`;
+const opremaImg = (name: string) => `${basePath}/images/oprema/Iznajmljivanje-${name}.webp`;
 
 export const products: Product[] = [
   // ========== ŠATORI ==========
@@ -38,7 +38,7 @@ export const products: Product[] = [
       "Profesionalna montaža i demontaža",
       "Otpornost na različite vremenske uslove",
     ],
-    images: satoriImages([1, 2, 3, 4, 5]),
+    images: [satorImg(2), satorImg(1), satorImg(3), satorImg(4), satorImg(5), satorImg(6)],
     seo: {
       title: "Iznajmljivanje šatora Beograd",
       description:
@@ -60,7 +60,7 @@ export const products: Product[] = [
       "Idealan za štandove i manje događaje",
       "Vodootporna cerada",
     ],
-    images: satoriImages([6, 7, 8]),
+    images: [sator3x3Img(1), sator3x3Img(2), sator3x3Img(3)],
     seo: {
       title: "Iznajmljivanje šatora 3x3 Beograd",
       description:
@@ -81,7 +81,7 @@ export const products: Product[] = [
       "Stručni saveti pri izboru",
       "Povoljne cene",
     ],
-    images: satoriImages([3, 6, 9]),
+    images: [satorImg(1), satorImg(2), satorImg(3), satorImg(4), satorImg(5), satorImg(6)],
     seo: {
       title: "Prodaja šatora - Novi i polovni šatori",
       description:
@@ -105,7 +105,7 @@ export const products: Product[] = [
       "Profesionalna montaža i demontaža",
       "Otpornost na kišu i vetar",
     ],
-    images: pagodeImages([1, 2, 3, 4, 5, 6, 8, 9, 10]),
+    images: [pagodaImg(7), pagodaImg(1), pagodaImg(2), pagodaImg(3), pagodaImg(4), pagodaImg(5), pagodaImg(6), pagodaImg(8), pagodaImg(9), pagodaImg(10), pagodaImg(11), pagodaImg(12), pagodaImg(13)],
     seo: {
       title: "Iznajmljivanje pagoda Beograd",
       description:
@@ -128,7 +128,7 @@ export const products: Product[] = [
       "Dostava na teritoriji Srbije",
       "Stručna podrška pri izboru",
     ],
-    images: pagodeImages([11, 12, 13, 14, 15]),
+    images: [pagodaImg(10), pagodaImg(1), pagodaImg(2), pagodaImg(3), pagodaImg(4), pagodaImg(5), pagodaImg(6), pagodaImg(7), pagodaImg(8), pagodaImg(9), pagodaImg(11), pagodaImg(12), pagodaImg(13)],
     seo: {
       title: "Prodaja pagoda - Nove i polovne pagode",
       description:
@@ -152,7 +152,7 @@ export const products: Product[] = [
       "Barski stolovi",
       "Stabilna konstrukcija",
     ],
-    images: pagodeImages([22, 23]),
+    images: [opremaImg("stolova-1"), opremaImg("stolova-2"), opremaImg("stolova-3"), opremaImg("barskih-stolova-1")],
     seo: {
       title: "Iznajmljivanje stolova Beograd",
       description:
@@ -174,7 +174,7 @@ export const products: Product[] = [
       "Stabilne i udobne",
       "Dostupne u većim količinama",
     ],
-    images: pagodeImages([16, 17, 18]),
+    images: [opremaImg("stolica-1"), opremaImg("stolica-2"), opremaImg("stolica-3")],
     seo: {
       title: "Iznajmljivanje stolica Beograd",
       description:
@@ -196,7 +196,7 @@ export const products: Product[] = [
       "Jednostavna upotreba",
       "Dostupni u većim količinama",
     ],
-    images: pagodeImages([2, 3]),
+    images: [opremaImg("klima-1")],
     seo: {
       title: "Iznajmljivanje klima uređaja Beograd",
       description:
@@ -218,7 +218,7 @@ export const products: Product[] = [
       "Jednostavna upotreba",
       "Dostupni u većim količinama",
     ],
-    images: pagodeImages([4, 5]),
+    images: [opremaImg("ventilatora-1")],
     seo: {
       title: "Iznajmljivanje ventilatora Beograd",
       description:
@@ -238,7 +238,7 @@ export const products: Product[] = [
       "Idealne za spoljašnje prostore",
       "Brzo i efikasno zagrevanje",
     ],
-    images: pagodeImages([6, 8]),
+    images: [opremaImg("plinskih-grejalica-1")],
     seo: {
       title: "Iznajmljivanje plinskih grejalica Beograd",
       description:
@@ -258,7 +258,7 @@ export const products: Product[] = [
       "Praktični i funkcionalni za događaje na otvorenom",
       "Brza i jednostavna postavka",
     ],
-    images: pagodeImages([9, 10]),
+    images: [opremaImg("pivskih-setova-1")],
     seo: {
       title: "Iznajmljivanje pivskih setova Beograd",
       description:
@@ -278,7 +278,7 @@ export const products: Product[] = [
       "Mobilne i jednostavne za postavljanje",
       "Pogodne za seminare, konferencije i predavanja",
     ],
-    images: pagodeImages([11, 12]),
+    images: [opremaImg("govornica-1")],
     seo: {
       title: "Iznajmljivanje govornica Beograd",
       description:
@@ -298,7 +298,7 @@ export const products: Product[] = [
       "Efikasna zaštita od sunca",
       "Stabilna baza",
     ],
-    images: pagodeImages([26, 27]),
+    images: [opremaImg("suncobrana-1")],
     seo: {
       title: "Iznajmljivanje suncobrana Beograd",
       description:
@@ -319,7 +319,7 @@ export const products: Product[] = [
       "Pogodni za proslave, korporativne događaje i okupljanja",
       "Stabilna konstrukcija",
     ],
-    images: pagodeImages([17, 18]),
+    images: [opremaImg("barskih-stolova-2"), opremaImg("barskih-stolova-1"), opremaImg("barskih-stolova-3")],
     seo: {
       title: "Iznajmljivanje barskih stolova Beograd",
       description:
@@ -340,7 +340,7 @@ export const products: Product[] = [
       "Udobno sedenje",
       "Elegantni i premium izgled",
     ],
-    images: pagodeImages([21, 22]),
+    images: [opremaImg("fotelja-1")],
     seo: {
       title: "Iznajmljivanje fotelja Beograd",
       description:
@@ -361,7 +361,7 @@ export const products: Product[] = [
       "Sve vrste čaša",
       "Elegantni i profesionalni setovi",
     ],
-    images: pagodeImages([13, 14]),
+    images: [opremaImg("escajga-1")],
     seo: {
       title: "Iznajmljivanje pribora za jelo Beograd",
       description:
@@ -382,7 +382,7 @@ export const products: Product[] = [
       "Idealne za kontrolu pristupa i definisanje zona",
       "Elegantno i profesionalno rešenje za događaje",
     ],
-    images: pagodeImages([15, 16]),
+    images: [opremaImg("barijera-stubica-1")],
     seo: {
       title: "Iznajmljivanje barijera Beograd",
       description:

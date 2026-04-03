@@ -11,7 +11,7 @@ export default function HomePage() {
       <Hero />
       <ProductGrid />
       <ParallaxSection
-        image={`${basePath}/images/pagode/pagode-10.jpg`}
+        image={`${basePath}/images/pagode/Iznajmljivanje-pagoda-6.webp`}
         title="Svaki događaj zaslužuje savršen prostor"
         subtitle="Od intimnih proslava do velikih korporativnih događaja — mi obezbeđujemo kompletnu opremu i profesionalnu montažu."
       />
