@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { getImageAlt } from "@/lib/images";
 
 interface CardProps {
   title: string;
@@ -18,7 +19,7 @@ export function Card({ title, description, image, href, className = "" }: CardPr
       <div className="relative aspect-[4/3] overflow-hidden">
         <Image
           src={image}
-          alt={title}
+          alt={getImageAlt(image, title)}
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-105"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

@@ -7,6 +7,7 @@ import { CTABanner } from "@/components/sections/CTABanner";
 import { ProductJsonLd } from "@/components/seo/JsonLd";
 import { siteConfig } from "@/data/siteConfig";
 import { AnimateOnScroll } from "@/components/ui/AnimateOnScroll";
+import { getImageAlt } from "@/lib/images";
 
 interface ProductPageTemplateProps {
   product: Product;
@@ -26,7 +27,7 @@ export function ProductPageTemplate({ product }: ProductPageTemplateProps) {
       <section className="relative h-[50vh] min-h-[350px]">
         <Image
           src={product.images[0]}
-          alt={product.title}
+          alt={getImageAlt(product.images[0], product.title)}
           fill
           className="object-cover"
           priority

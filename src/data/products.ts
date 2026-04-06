@@ -30,7 +30,7 @@ export const products: Product[] = [
     title: "Iznajmljivanje šatora",
     shortDescription: "Šatori bele boje, modernog dizajna, pogodni za sve vrste događaja.",
     description:
-      "Iznajmljujemo šatore bele boje, modernog dizajna, pogodne za sve vrste događaja — od svadbi i venčanja, do korporativnih događaja, sajmova, koncerata i festivala.",
+      "Iznajmljujemo šatore bele boje, modernog dizajna, pogodne za sve vrste događaja, od svadbi i venčanja do korporativnih događaja, sajmova, koncerata i festivala.\n\nModularni šatori širine 10 m sa mogućnošću produžavanja u segmentima od 5 m omogućavaju fleksibilno prilagođavanje svakom prostoru i broju gostiju. Kvalitetna PVC cerada pruža pouzdanu zaštitu od sunca, kiše i vetra, uz stabilnu i sigurnu konstrukciju.",
     features: [
       "Modularni šatori širine 10 m, sa mogućnošću produžavanja u segmentima od 5 m",
       "Bela PVC cerada visokog kvaliteta",
@@ -72,9 +72,9 @@ export const products: Product[] = [
     category: "Šatori",
     categorySlug: "satori",
     title: "Prodaja šatora",
-    shortDescription: "Prodaja šatora različitih dimenzija i namena — novi i polovni.",
+    shortDescription: "Prodaja novih i polovnih šatora različitih dimenzija i namena.",
     description:
-      "Nudimo prodaju šatora različitih dimenzija i namena — od kompaktnih modela za manje događaje do velikih modularnih šatora za proslave, manifestacije i komercijalnu upotrebu. U ponudi su novi i polovni šatori, uz pouzdan kvalitet i dugotrajnost.",
+      "Nudimo prodaju šatora različitih dimenzija i namena, od kompaktnih modela za manje događaje do velikih modularnih šatora za proslave, manifestacije i komercijalnu upotrebu. U ponudi su novi i polovni šatori, uz pouzdan kvalitet i dugotrajnost.",
     features: [
       "Novi i polovni šatori",
       "Sve veličine i tipovi",
@@ -95,12 +95,13 @@ export const products: Product[] = [
     category: "Pagode",
     categorySlug: "pagode",
     title: "Iznajmljivanje pagoda",
-    shortDescription: "Elegantne pagode 5x5m za događaje na otvorenom.",
+    shortDescription: "Iznajmljivanje pagoda vrhunskog kvaliteta za venčanja, proslave i poslovne događaje. Spoj elegancije, funkcionalnosti i pouzdane zaštite.",
     description:
       "Naše pagode dimenzija 5x5 m predstavljaju vrhunski izbor za elegantne događaje na otvorenom. Zahvaljujući modernom dizajnu i visokom kvalitetu izrade, savršeno se uklapaju u venčanja, korporativne proslave i ekskluzivne događaje. Mogu se međusobno povezivati kako bi se dobile veće, funkcionalne celine.",
     features: [
       "Dimenzije: 5x5 metara",
       "Mogućnost spajanja više pagoda",
+      "Mogućnost dodavanja podova, rasvete i grejanja",
       "Elegantna bela PVC cerada",
       "Profesionalna montaža i demontaža",
       "Otpornost na kišu i vetar",
@@ -144,7 +145,7 @@ export const products: Product[] = [
     title: "Iznajmljivanje stolova",
     shortDescription: "Okrugli, pravougaoni, pivski i barski stolovi za sve vrste događaja.",
     description:
-      "Nudimo iznajmljivanje stolova za sve vrste događaja — od svečanih proslava i venčanja do korporativnih okupljanja i manifestacija. U ponudi imamo okrugle stolove dimenzija Ø155 i Ø180 cm, pravougaone stolove, pivske setove i barske stolove, koji se lako uklapaju u različite postavke prostora i tipove događaja.",
+      "Nudimo iznajmljivanje stolova za sve vrste događaja. Od svečanih proslava i venčanja do korporativnih okupljanja i manifestacija. U ponudi imamo okrugle stolove dimenzija Ø155 i Ø180 cm, pravougaone stolove, pivske setove i barske stolove, koji se lako uklapaju u različite postavke prostora i tipove događaja.",
     features: [
       "Okrugli stolovi (Ø155 i Ø180 cm)",
       "Pravougaoni stolovi",
@@ -166,7 +167,7 @@ export const products: Product[] = [
     title: "Iznajmljivanje stolica",
     shortDescription: "Tiffany, konferencijske i barske stolice za sve vrste događaja.",
     description:
-      "Nudimo iznajmljivanje elegantnih Tiffany stolica, konferencijskih stolica i barskih stolica za sve vrste događaja — od venčanja i korporativnih proslava do konferencija i manje formalnih okupljanja. Stolice su udobne, stabilne i dostupne u većim količinama, što omogućava fleksibilnu organizaciju prostora.",
+      "Nudimo iznajmljivanje elegantnih Tiffany stolica, konferencijskih stolica i barskih stolica za sve vrste događaja. Od venčanja i korporativnih proslava do konferencija i manje formalnih okupljanja. Stolice su udobne, stabilne i dostupne u većim količinama, što omogućava fleksibilnu organizaciju prostora.",
     features: [
       "Tiffany stolice",
       "Konferencijske stolice",

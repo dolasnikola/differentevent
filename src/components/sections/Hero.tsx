@@ -9,15 +9,15 @@ import { basePath } from "@/lib/images";
 const slides = [
   {
     image: `${basePath}/images/pagode/Iznajmljivanje-pagoda-1.webp`,
-    alt: "Pagode za events - Different Event Beograd",
+    alt: "satori za svadbe",
   },
   {
     image: `${basePath}/images/pagode/Iznajmljivanje-pagoda-2.webp`,
-    alt: "Iznajmljivanje pagoda - Different Event Beograd",
+    alt: "sator za svadbe cena",
   },
   {
     image: `${basePath}/images/pagode/Iznajmljivanje-pagoda-3.webp`,
-    alt: "Pagode za venčanja - Different Event Beograd",
+    alt: "iznajmljivanje satora",
   },
 ];
 
@@ -84,8 +84,8 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="mt-6 max-w-2xl text-lg text-white/80 sm:text-xl"
         >
-          Profesionalno iznajmljivanje šatora, pagoda i kompletne opreme za sve
-          vrste događaja u Beogradu i Srbiji.
+          Iznajmljivanje šatora, pagoda i kompletne opreme za sve
+          vrste događaja u Srbiji.
         </motion.p>
 
         <motion.div
@@ -97,7 +97,7 @@ export function Hero() {
           <Button href="/kontakt" size="lg">
             Pošaljite upit
           </Button>
-          <Button href="/satori" variant="outline" size="lg">
+          <Button href="#nasa-ponuda" variant="outline" size="lg">
             Pogledajte ponudu
           </Button>
         </motion.div>

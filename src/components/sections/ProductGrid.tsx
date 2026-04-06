@@ -8,7 +8,7 @@ import { basePath } from "@/lib/images";
 const categories = [
   {
     title: "Pagode",
-    description: "Elegantne pagode za sve vrste događaja. Iznajmljivanje i prodaja.",
+    description: "Elegantne pagode za sve vrste događaja na otvorenom, od venčanja i privatnih proslava do korporativnih manifestacija.",
     image: `${basePath}/images/pagode/Iznajmljivanje-pagoda-7.webp`,
     href: "/pagode",
   },
@@ -20,7 +20,7 @@ const categories = [
   },
   {
     title: "Dodatna oprema",
-    description: "Stolovi, stolice, klima, grejanje, suncobrani i sve što vam je potrebno.",
+    description: "Stolovi, stolice, klima uređaji, grejanje i sve što vam je potrebno.",
     image: `${basePath}/images/oprema/Iznajmljivanje-stolova-1.webp`,
     href: "/dodatna-oprema",
   },
@@ -28,7 +28,7 @@ const categories = [
 
 export function ProductGrid() {
   return (
-    <section className="py-16 lg:py-24 bg-gray-50">
+    <section id="nasa-ponuda" className="py-16 lg:py-24 bg-gray-50">
       <Container>
         <AnimateOnScroll variant="slideUp" className="text-center mb-12">
           <h2 className="font-playfair text-3xl font-bold text-navy-900 sm:text-4xl">

@@ -42,7 +42,7 @@ export default function ONamaPage() {
               <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
                 <Image
                   src={`${basePath}/images/different-event.webp`}
-                  alt="Different Event tim na terenu"
+                  alt="iznajmljivanje šatora different event"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -60,7 +60,7 @@ export default function ONamaPage() {
               </p>
               <p className="mt-4 text-navy-700 leading-relaxed">
                 Naš cilj je da svakom klijentu obezbedimo funkcionalan, estetski i
-                pouzdan prostor – bilo da se radi o venčanjima, korporativnim događajima,
+                pouzdan prostor, bilo da se radi o venčanjima, korporativnim događajima,
                 promocijama ili privatnim proslavama.
               </p>
               <p className="mt-4 text-navy-700 leading-relaxed">
@@ -96,12 +96,12 @@ export default function ONamaPage() {
           </AnimateOnScroll>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { title: "Iskustvo", desc: "Više od 15 godina iskustva i preko 1000 uspešno realizovanih događaja u celoj Srbiji." },
+              { title: "Iskustvo", desc: "Više od decenije iskustva i preko 1000 uspešno realizovanih događaja širom Srbije." },
               { title: "Kvalitet opreme", desc: "Koristimo samo vrhunsku opremu renomiranih proizvođača. Redovno održavanje i zamena." },
               { title: "Profesionalan tim", desc: "Iskusan tim za montažu i demontažu. Brzi, efikasni i uvek na raspolaganju." },
-              { title: "Kompletna usluga", desc: "Sve na jednom mestu — šatori, pagode, stolice, stolovi, rasveta, grejanje i više." },
+              { title: "Kompletna usluga", desc: "Sve na jednom mestu. Šatori, pagode, stolice, stolovi, rasveta, grejanje i više." },
               { title: "Fleksibilnost", desc: "Prilagođavamo se vašim potrebama i budžetu. Svaki događaj je jedinstven." },
-              { title: "Pouzdanost", desc: "Na vreme, svaki put. Vaš događaj ne može da čeka — i zato mi nikad ne kasnimo." },
+              { title: "Pouzdanost", desc: "Na vreme, svaki put. Vaš događaj ne može da čeka i zato mi nikad ne kasnimo." },
             ].map((item, i) => (
               <AnimateOnScroll key={item.title} variant="slideUp" delay={i * 0.1}>
                 <div className="rounded-xl bg-gray-50 p-6">

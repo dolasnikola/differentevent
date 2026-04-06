@@ -20,7 +20,7 @@ export default function DodatnaOpremaPage() {
       <section className="bg-navy-900 pt-28 pb-12">
         <Container>
           <h1 className="font-playfair text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Dodatna oprema</h1>
-          <p className="mt-4 text-lg text-white/70 max-w-2xl">Kompletna oprema za organizaciju događaja — stolovi, stolice, rasveta, grejanje, klimatizacija i mnogo više.</p>
+          <p className="mt-4 text-lg text-white/70 max-w-2xl">Kompletna oprema za organizaciju događaja. Stolovi, stolice, klima uređaji, grejanje i sve što vam je potrebno.</p>
         </Container>
       </section>
       <div className="bg-gray-50 border-b"><Container><Breadcrumbs items={[{ name: "Dodatna oprema", href: "/dodatna-oprema" }]} /></Container></div>

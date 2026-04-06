@@ -3,9 +3,9 @@ export const siteConfig = {
   url: "https://differentevent.rs",
   description:
     "Iznajmljivanje šatora, pagoda i kompletne opreme za sve vrste događaja u Beogradu i Srbiji. Višegodišnje iskustvo u organizaciji nezaboravnih momenata.",
-  phone: "+381636511192",
+  phone: "+38163651192",
   phoneDisplay: "063 651 192",
-  phone2: "+381696511196",
+  phone2: "+38169651196",
   phone2Display: "069 651 196",
   email: "office@differentevent.rs",
   email2: "marceta@differentevent.rs",
