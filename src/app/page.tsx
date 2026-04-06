@@ -13,7 +13,7 @@ export default function HomePage() {
       <ParallaxSection
         image={`${basePath}/images/pagode/Iznajmljivanje-pagoda-6.webp`}
         title="Svaki događaj zaslužuje savršen prostor"
-        subtitle="Od intimnih proslava do velikih korporativnih događaja — mi obezbeđujemo kompletnu opremu i profesionalnu montažu."
+        subtitle="Od intimnih proslava do velikih korporativnih događaja, mi obezbeđujemo kompletnu opremu i profesionalnu montažu."
       />
       <Testimonials />
       <CTABanner />

@@ -20,7 +20,7 @@ export default function PagodePage() {
       <section className="bg-navy-900 pt-28 pb-12">
         <Container>
           <h1 className="font-playfair text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Pagode</h1>
-          <p className="mt-4 text-lg text-white/70 max-w-2xl">Elegantne pagode za sve vrste događaja na otvorenom. Iznajmljivanje i prodaja.</p>
+          <p className="mt-4 text-lg text-white/70 max-w-2xl">Elegantne pagode za sve vrste događaja na otvorenom, od venčanja i privatnih proslava do korporativnih manifestacija.</p>
         </Container>
       </section>
       <div className="bg-gray-50 border-b"><Container><Breadcrumbs items={[{ name: "Pagode", href: "/pagode" }]} /></Container></div>

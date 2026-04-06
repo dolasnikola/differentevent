@@ -2,6 +2,7 @@
 
 import LightboxComponent from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import { getImageAlt } from "@/lib/images";
 
 interface LightboxProps {
   images: string[];
@@ -21,7 +22,7 @@ export function Lightbox({ images, alt, isOpen, initialIndex, onClose }: Lightbo
       index={initialIndex}
       slides={images.map((src, i) => ({
         src,
-        alt: `${alt} - slika ${i + 1}`,
+        alt: getImageAlt(src, `${alt} - slika ${i + 1}`),
       }))}
       styles={{
         container: { backgroundColor: "rgba(11, 20, 40, 0.95)" },

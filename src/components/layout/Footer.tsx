@@ -24,7 +24,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-sm text-white/60 leading-relaxed">
-              Profesionalno iznajmljivanje šatora, pagoda i opreme za sve vrste
+              Iznajmljivanje šatora, pagoda i opreme za sve vrste
               događaja. Višegodišnje iskustvo u organizaciji nezaboravnih momenata.
             </p>
           </div>

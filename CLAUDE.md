@@ -112,8 +112,11 @@ Edituj `src/data/siteConfig.ts` — koristi se u Footer, Header, JsonLd, kontakt
 
 ## Poznati TODO-ovi
 
-- [ ] Testimonijali: zameniti placeholder sa pravim Google Maps recenzijama (korisnik salje naknadno, 16 recenzija, 4.3 rejting)
-- [ ] Slike: dodati prave slike za Tiffany stolice i dodatnu opremu (trenutno koriste pagode placeholder)
+- [x] Testimonijali: azurirani sa pravim Google Maps recenzijama (Nikola Dolas, Luka Selakovic, Danica Colakov — 4.6 rejting, 18 recenzija)
+- [x] Slike: dodate prave slike za Tiffany stolice i dodatnu opremu
+- [x] SEO alt tekstovi: 41 slika sa optimizovanim alt tekstovima (centralizovana mapa u src/lib/images.ts)
+- [x] Bugfix tel/WhatsApp: ispravljeni brojevi telefona i WhatsApp link
+- [x] v2 izmene teksta: azurirani tekstovi na svim stranicama prema v2.md specifikaciji
 - [ ] GTM: dodati pravi Google Tag Manager ID u siteConfig.gtmId
 - [ ] Domain: konfigurisati custom domain differentevent.rs i redirecte sa starog WP sajta
 - [ ] Kontakt forma: povezati sa backendom (trenutno samo UI)

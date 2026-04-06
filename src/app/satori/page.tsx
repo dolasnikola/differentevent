@@ -25,8 +25,7 @@ export default function SatoriPage() {
             Šatori
           </h1>
           <p className="mt-4 text-lg text-white/70 max-w-2xl">
-            Profesionalno iznajmljivanje i prodaja šatora za sve vrste događaja.
-            Od elegantnih šatora za venčanja do industrijskih šatora za skladištenje.
+            Iznajmljivanje šatora za venčanja, proslave, korporativne događaje i manifestacije na otvorenom.
           </p>
         </Container>
       </section>
