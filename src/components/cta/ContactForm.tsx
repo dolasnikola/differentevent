@@ -5,10 +5,43 @@ import { Button } from "@/components/ui/Button";
 
 export function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSubmitted(true);
+    setLoading(true);
+    setError("");
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    const data = {
+      name: formData.get("name"),
+      phone: formData.get("phone"),
+      email: formData.get("email"),
+      eventType: formData.get("eventType"),
+      date: formData.get("date"),
+      message: formData.get("message"),
+    };
+
+    try {
+      const res = await fetch("/send-email.php", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        const result = await res.json();
+        setError(result.error || "Greška pri slanju. Pokušajte ponovo.");
+      }
+    } catch {
+      setError("Greška pri slanju. Pokušajte ponovo.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   if (submitted) {
@@ -29,6 +62,12 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
+      {error && (
+        <div className="rounded-lg bg-red-50 p-4 text-sm text-red-700">
+          {error}
+        </div>
+      )}
+
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-navy-900 mb-1">
@@ -117,8 +156,8 @@ export function ContactForm() {
         />
       </div>
 
-      <Button type="submit" size="lg" className="w-full sm:w-auto">
-        Pošaljite upit
+      <Button type="submit" size="lg" className="w-full sm:w-auto" disabled={loading}>
+        {loading ? "Slanje..." : "Pošaljite upit"}
       </Button>
     </form>
   );
