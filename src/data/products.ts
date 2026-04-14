@@ -332,7 +332,7 @@ export const products: Product[] = [
     category: "Dodatna oprema",
     categorySlug: "dodatna-oprema",
     title: "Iznajmljivanje fotelja",
-    shortDescription: "Fotelje u crnoj eko koži za VIP zone i events.",
+    shortDescription: "Fotelje u crnoj eko koži za ekskluzivne događaje.",
     description:
       "Nudimo iznajmljivanje fotelja u crnoj eko koži, idealnih za VIP zone, chill-out prostore, seminare, korporativne događaje i sajamske prezentacije. Fotelje su udobne, elegantne i vizuelno atraktivne, čime prostoru daju ekskluzivan izgled.",
     features: [
