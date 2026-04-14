@@ -24,7 +24,7 @@ export default function ONamaPage() {
             O nama
           </h1>
           <p className="mt-4 text-lg text-white/70 max-w-2xl">
-            Upoznajte Different Event — vaš pouzdan partner za sve vrste događaja.
+            Upoznajte Different Event, vašeg pouzdanog partnera za sve vrste događaja.
           </p>
         </Container>
       </section>
